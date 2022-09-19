@@ -6,7 +6,7 @@ describe("test create route", () => {
 	const todo = {
 		title: "Create todo",
 	};
-
+  
 	test("Should have key record and msg when created", async () => {
 		const mockCreateTodo = jest.fn((): any => todo);
 		jest
